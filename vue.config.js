@@ -1,3 +1,3 @@
 module.exports = {
-    publicPath: '/vue-form/'
+    publicPath: process.env.NODE_ENV === "production" ? "/vue-form/" : "/",
   };
